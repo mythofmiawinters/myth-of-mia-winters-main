@@ -9,7 +9,7 @@
 		<meta name="description" content="A New Day Band." />
 		<meta
 			name="keywords"
-			content="A New Day band, melodic hardcore, post-hardcore music, emotional hardcore, underground music, atmospheric metalcore, hardcore punk, heavy music with melody, intense live performances, emotional lyrics, independent band, modern hardcore, ambient hardcore, screamo revival, post-metal influences, cathartic music experience"
+			content="Myth of Mia Winters band, melodic hardcore, post-hardcore music, emotional hardcore, underground music, atmospheric metalcore, hardcore punk, heavy music with melody, intense live performances, emotional lyrics, independent band, modern hardcore, ambient hardcore, screamo revival, post-metal influences, cathartic music experience"
 		/>
 
 		<meta name="author" content="The Caravel" />
@@ -92,6 +92,26 @@ flex-direction: column;
 position: relative;
 z-index: 3;
 margin-bottom: 20px;
+}
+
+.social-icons-top {
+position: absolute;
+bottom: 30px;
+right: 0;
+display: flex;
+gap: 15px;
+padding-right: 10px;
+}
+
+.social-icons-top a {
+color: #ff668a;
+font-size: 24px;
+transition: all 0.3s ease;
+}
+
+.social-icons-top a:hover {
+color: #6e5057;
+transform: scale(1.1);
 }
 
 .headerborder{
@@ -222,6 +242,13 @@ letter-spacing: 3px;
 .subheader h3{
 margin: 0px;
 }
+
+.bgimg{
+position: fixed;
+bottom: 0;
+left: 0px;
+width: 1024px;
+}
  
 .mainboxescontent{
 padding: 0px 15px 0px 15px;
@@ -280,8 +307,19 @@ color: #fff;
  
 <body>
 
+<img class="bgimg" src="img/bg-1.png" />
+
 <div class="headerwrapper">
 <h1 class="header">Myth of Mia Winters</h1>
+<div class="social-icons-top">
+<a href="https://www.instagram.com/mythofmiawinters/" target="_blank"><i class="fab fa-instagram"></i></a>
+<a href="https://open.spotify.com/artist/5ejWlGxuyBuA94tvRQVPxT" target="_blank"><i class="fab fa-spotify"></i></a>
+<a href="https://mythofmiawinters.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a>
+<a href="https://x.com/mythofmiawinter" target="_blank"><i class="fab fa-x-twitter"></i></a>
+<a href="https://soundcloud.com/mythofmiawinters" target="_blank"><i class="fab fa-soundcloud"></i></a>
+<a href="https://www.tiktok.com/@mythofmiawinters" target="_blank"><i class="fab fa-tiktok"></i></a>
+<a href="https://www.reddit.com/user/mythofmiawinters/" target="_blank"><i class="fab fa-reddit"></i></a>
+</div>
 <div class="headerborder">.</div>
 </div>
  
