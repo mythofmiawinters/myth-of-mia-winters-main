@@ -46,13 +46,6 @@
 			rel="stylesheet"
 		/>
 
-		<!-- Customized Bootstrap Stylesheet -->
-		<link href="css/bootstrap.css" rel="stylesheet" />
-
-		<!-- Template Stylesheet -->
-		<link rel="stylesheet" href="css/vendor.css" />
-		<link rel="stylesheet" href="css/styles.css" />
-
 		<!-- Icon Font Stylesheet -->
 		<link
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -209,6 +202,17 @@ padding: 0px 15px 0px 15px;
 color: #6e5057;
 font-size: 17px;
 }
+
+.footerwrapper {
+	width: 100%;
+	background-color: #212121;
+	opacity: 0.7;
+	height: 40px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
  
 #footer{
 clear: both;
@@ -236,10 +240,12 @@ background-color: #ff668a;
 }
  
 #credit{
-font-size: 12px;
-position: fixed;
-bottom: 0;
-right: 0;
+color: #fff;
+	font-size: 12px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 3;
 }
  
 </style>
@@ -381,8 +387,7 @@ Sed sit amet purus sapien. Sed porttitor vel enim sit amet aliquam. Aenean ornar
 </div>
  
 </div>
- 
-<div id="credit"><a href="https://repth.neocities.org/index.html">@Repth</a></div>
+
 		<div class="footerwrapper">
 			<div
 				class="footer-content"
@@ -402,11 +407,6 @@ Sed sit amet purus sapien. Sed porttitor vel enim sit amet aliquam. Aenean ornar
 			&nbsp;|&nbsp; Template by
 			<a href="https://repth.neocities.org/index.html">Repth</a>
 		</p>
-
-		<!-- Back to Top -->
-		<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-			><i class="bi bi-arrow-up"></i
-		></a>
 
 		<!-- JavaScript Libraries -->
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
