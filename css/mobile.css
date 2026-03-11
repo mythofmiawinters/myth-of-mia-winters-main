@@ -12,6 +12,8 @@
         width: 100%;
         overflow-x: hidden;
         min-width: 0;
+        margin: 0;
+        padding: 0;
     }
 
     /* Fix background on iOS Safari */
@@ -103,6 +105,15 @@
     /* Scrollbox full width */
     #scrolly {
         width: 100%;
+    }
+
+    /* Hide scrollbar on mobile */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    * {
+        scrollbar-width: none;
     }
 
     .mainboxescontent {
