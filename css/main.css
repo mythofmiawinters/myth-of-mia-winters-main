@@ -107,7 +107,7 @@ body::before {
 
 #side {
     float: left;
-    width: 145px;
+    width: 155px;
     padding: 0px 0px 5px 10px;
     overflow: hidden;
 }
@@ -164,7 +164,7 @@ a:hover {
 
 #main {
     float: right;
-    width: 624px;
+    width: 614px;
     overflow: hidden;
     padding: 0px 10px 5px 0px;
 }
