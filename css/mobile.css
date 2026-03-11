@@ -76,6 +76,19 @@
         width: 100% !important;
         padding: 0 8px;
         min-width: 0;
+        display: flex;
+        gap: 8px;
+    }
+
+    #side .sidebox {
+        flex: 1;
+        min-width: 0;
+    }
+
+    /* Hide the empty sidebox */
+    #side .sidebox:empty,
+    #side .sidebox:nth-child(2) {
+        display: none;
     }
 
     #main {
