@@ -1,0 +1,66 @@
+.contact-form {
+    padding: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5a4d7a;
+    font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8e8ae2;
+    background-color: #fff;
+    color: #5a4d7a;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #d39ffc;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-btn {
+    background-image: linear-gradient(to right, #8e8ae2, #d39ffc);
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-family: 'Neuropol', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.contact-email {
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    color: #5a4d7a;
+    font-size: 16px;
+}
+
+.contact-email a {
+    color: #8e8ae2;
+    font-weight: bold;
+}

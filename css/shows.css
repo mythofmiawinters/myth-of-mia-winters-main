@@ -1,0 +1,35 @@
+.show-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #8e8ae2;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.show-item:first-child {
+    margin-top: 15px;
+}
+
+.show-item:hover {
+    border-color: #d39ffc;
+    transform: translateX(5px);
+}
+
+.show-date {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8e8ae2;
+    margin-bottom: 8px;
+}
+
+.show-venue {
+    font-size: 18px;
+    color: #5a4d7a;
+    margin-bottom: 5px;
+}
+
+.show-location {
+    font-size: 16px;
+    color: #5a4d7a;
+    opacity: 0.8;
+}
