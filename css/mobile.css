@@ -9,7 +9,7 @@
     }
 
     body {
-        width: 100vw;
+        width: 100%;
         overflow-x: hidden;
         min-width: 0;
     }
@@ -17,12 +17,13 @@
     /* Fix background on iOS Safari */
     body::before {
         background-attachment: scroll;
-        width: 100vw;
+        width: 100%;
     }
 
     /* Header */
     .headerwrapper {
         width: 100vw;
+        margin-left: 0;
         margin-bottom: 10px;
         overflow: hidden;
     }
@@ -52,16 +53,16 @@
 
     /* Fix the border bar */
     .headerborder {
-        width: 100vw;
+        width: 100%;
         margin-left: 0;
     }
 
     /* Container and box go full width */
     #container {
-        width: 100vw;
-        max-width: 100vw;
+        width: 100%;
+        max-width: 100%;
         margin: 0 0 60px 0;
-        padding: 0;
+        padding: 0 8px;
         border: none;
     }
 
